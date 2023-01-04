@@ -2,24 +2,24 @@ minimal_mistakes_skin    : "dsl" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "CodeCchio"
+title                    : "Site_Title"
 title_separator          : "-"
-subtitle                 : "ver. 1.0"
-name                     : "김예진(Yejin Kim)"
-description              : "DL / ML / Pytorch / Flutter / Python"
-url                      : "https://yejin109.github.io"
+subtitle                 : "site_subtitle"
+name                     : "조의현(Uihyun Cho)"
+description              : "name_description"
+url                      : "https://a2ran.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/yejin109/yejin109.github.io"
+repository               : "https://github.com/a2ran/a2ran.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Codecchico"
+masthead_title           : "Masthead_title"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
 comments:
   provider               : "disqus" 
   disqus:
-    shortname            : "yejin109"
+    shortname            : "a2ran"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -89,15 +89,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yejin Kim"
+  name             : "Uihyun Cho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Study it and apply all! <br> Like to see error code because it is much better than warrning!"
+  bio              : "bio(1) <br> bio(2)"
   location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:yejinkim0119@gmail.com
+      url: mailto:cuihyun12@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -109,10 +109,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yejin109"
+      url: "https://github.com/a2ran"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/joyhyun99"
 
 # Site Footer
 footer:
