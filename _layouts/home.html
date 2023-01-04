@@ -4,19 +4,99 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+<section id="Name" class="major">
+    <div class="inner">
+        <header class="major">
+            <h1>Yejin Kim</h1>
+        </header>
+        <div class="content">
+            <p> Self-motivated and passionate undergraduate researcher with 2 years of internship in the university and corporation. 
+                Regardless of type of task, I try to figure out the essential principle from the problem and make a scalable solution. 
+                Ambitious developer with 2 years of professional experience in building applications. Proficient with Python and Dart. 
+                Results-oriented with a strong desire to take projects from beginning to end.</p>
+        </div>
+    </div>
+</section>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+<section id="contents">
+    <div class="subjects">
+        <header class="major">
+            <h1>Interested in</h1>
+        </header>
+        <p> Deep Learning Implementation <br> Graph-structured Data <br> Federated Learning </p>
+    </div>
+    <div class="research">
+        <header class="major">
+            <h1> Research Topic</h1>
+        </header>
+        <p>[Paper] Data Importance-Aware Scheduling for Exploiting Diversity of Distributed Data <br> <a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11047530"> Paper Link</a></p>
+        
+        <p>[Implementation] Implement Neurocard which is Data-driven query optimization model on several environments and make API <br> <a href="https://github.com/neurocard/neurocard">Github Link</a></p>
 
-{% include paginator.html %}
+    </div>
+
+    <div class="projects">
+        <header class="major">
+            <h1> Project Topic</h1>
+        </header>        
+
+        <p>
+            [Algorithm] Data-driven evaluatation system on reading ability of elementary schoold students using eye tracking data @ Visual Camp corp, Dec 2022
+            <br>
+            <a href="https://github.com/yejin109/DSL_VC">src LINK</a>
+        </p>
+        
+
+        <p>
+            [NLP] Framework for Text Style Transfer: from data processing to implmentation of Style LM model, Dec 2022
+            <br>
+            <a href="https://github.com/yejin109/NLP.TST.StyleLM">src LINK</a>
+        </p>
+
+        <p>
+            [Recommendation System] Implementation of Deep-learning based recommendation service on My-Data infrastructure, Dec 2022
+            <br>
+            <a href="http://koreascience.or.kr/article/CFKO202233649487417.page">paper LINK</a> <br>
+            src LINK(private repo)
+        </p>
+
+        <p>
+            [CV] implmentation of mobile application service of Deep-learning based Object Detection model, Dec 2022
+            <br>
+            <a href="https://github.com/yejin109/ObjectDetect_on_Satellite">src LINK</a>
+        </p>
+
+        <p>
+            [CV] Recommendation based on Instance Segmentation and Data Embedding, May 2022
+            <br>
+            <a href="https://github.com/yejin109/MaskRCNN-Recommendation">src LINK</a>
+        </p>
+        
+        <p>
+            [Clustering] Data-driven Social problem solution Competition, Sep 2021
+            <br>
+            <a href="https://github.com/yejin109/Data-based-Social-Problem-Solution-Project">src LINK</a>
+        </p>        
+    </div>
+</section>
+
+
+
+
+<!-- <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>-->
+
+<!--{% if paginator %}-->
+<!--  {% assign posts = paginator.posts %}-->
+<!--{% else %}-->
+<!--  {% assign posts = site.posts %}-->
+<!--{% endif %}-->
+
+<!--{% assign entries_layout = page.entries_layout | default: 'list' %}-->
+<!--<div class="entries-{{ entries_layout }}">-->
+<!--  {% for post in posts %}-->
+<!--    {% include archive-single.html type=entries_layout %}-->
+<!--  {% endfor %}-->
+<!--</div> -->
+
+<!--{% include paginator.html %}-->

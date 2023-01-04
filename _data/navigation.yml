@@ -1,7 +1,13 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: "/"
+  - title: "About Me"
+    url: "/about/"
+  - title: "Category"
+    url: "/categories/"
+#  - title: "Tags"
+#    url: "/tags/"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -10,3 +16,30 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: Deep Learning
+    children:
+      - title: "CNN"
+        url: cnn/
+        category: "CNN"
+      - title: "Graph Neural Network"
+        url: gnn/
+        category: "GNN"
+      - title: "Generative Model"
+        url: Generative/
+        category: "Generative"
+      - title: "RNN"
+        url: RNN/
+        category: "RNN"
+      - title: "RNN"
+        url: RNN/
+        category: "RNN"
+      - title: "Self Supervised Learning"
+        url: self%20supervised/
+        category: "Self Supervised"
+  - title : Computer Science
+    childer :
+      - title: "OOP"
+        url: oop/
+        category: "OOP"

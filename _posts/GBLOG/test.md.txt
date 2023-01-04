@@ -1,0 +1,6 @@
+---
+layout: post
+categories: [test]
+---
+
+테스트입니다.
