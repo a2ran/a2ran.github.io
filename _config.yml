@@ -125,7 +125,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yejin109"
+      url: "https://github.com/a2ran"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -134,7 +134,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/joyhyun99"
 
 
 # Reading Files
