@@ -117,10 +117,12 @@
 
   /* next/previous buttons */
   &--pager {
+    margin-top: 0em;
+    padding-top: 0em;
     display: block;
     padding: 1em 2em;
-    float: left;
-    width: 50%;
+    //float: left;
+    width: 100%;
     font-family: $sans-serif;
     font-size: $type-size-5;
     font-weight: bold;
@@ -130,9 +132,9 @@
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
      
-     .prev_next {
-        font-family: $sans-serif;
-        color:#ffd861
+    .prev_next {
+       font-family: $sans-serif;
+       color:#ffd861
 
     &:hover {
       @include yiq-contrasted($muted-text-color);
