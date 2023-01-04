@@ -2,17 +2,17 @@ minimal_mistakes_skin    : "dsl" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Data"
+title                    : "Fishermen's Cove"
 title_separator          : "-"
-subtitle                 : "Science"
-name                     : "조의현(Uihyun Cho)"
-description              : "잘 부탁합니다"
+subtitle                 : "Data Study Archive"
+name                     : "Uihyun Cho(조의현)"
+description              : "Wide array of selections I have journied through <br> Mostly applied statistics and Natural Language Processings"
 url                      : "https://a2ran.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/a2ran/a2ran.github.io"
 teaser                   : "/assets/images/ds_lab.png"
-logo                     : "/assets/images/ds_lab.png"
-masthead_title           : "Masthead_title"
+logo                     : "/assets/images/blog_icon.jpg"
+masthead_title           : "Fishermen's Cove"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
@@ -89,9 +89,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Uihyun Cho"
-  avatar           : "/assets/images/ds_lab.png"
-  bio              : "bio(1) <br> bio(2)"
+  name             : "Uihyun Cho (조의현)"
+  avatar           : "/assets/images/blog_icon.jpg"
+  bio              : "Wide array of selections I have journied through <br> Mostly applied statistics and Natural Language Processings"
   location         : "Republic of Korea"
   email            :
   links:
