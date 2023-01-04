@@ -8,6 +8,9 @@ tags:
   - [basics, syntax]
 date: 2023-01-04
 last_modified_at: 2023-01-04
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 Essential markdown syntax for github blogs.
