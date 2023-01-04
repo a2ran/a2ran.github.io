@@ -2,10 +2,12 @@
 main:
   - title: "Home"
     url: "/"
-  - title: "About Me"
+  - title: "About"
     url: "/about/"
   - title: "Category"
     url: "/categories/"
+  - title: "Contact"
+    url: "/contact/"
 #  - title: "Tags"
 #    url: "/tags/"
   # - title: "About"
