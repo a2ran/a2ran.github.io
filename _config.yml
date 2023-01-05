@@ -2,7 +2,7 @@ minimal_mistakes_skin    : "dsl" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Fishermen's Cove"
+title                    : "study-repo"
 title_separator          : "-"
 subtitle                 : "Data Study Archive"
 name                     : "Uihyun Cho(조의현)"
@@ -12,7 +12,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/a2ran/a2ran.github.io"
 teaser                   : "/assets/images/ds_lab.png"
 logo                     : "/assets/images/ds_lab.png"
-masthead_title           : "Fishermen's Cove"
+masthead_title           : "study-repo"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
