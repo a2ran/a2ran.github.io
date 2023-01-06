@@ -19,23 +19,21 @@ Essential Numpy and Pandas syntax
 
 basic numpy library syntax on python
 
-## <span style = "color : blue">Array:</span>
+## <span style = "color : blue">Array</span>
 - All elements require same data types.
-  - \# of elements in the internal array must be equal
-    - Array performs operation between elements
+- \# of elements in the internal array must be equal
+- Array performs operation between elements
     
 ```python
 print(np.array([1, 3, 5, 'a', 'b'])) # all elements are changed into str
 ['1' '3' '5' 'a' 'b']
 ```
 
-<br>
 
 ```python
 print(np.array([[1], [3, 5], [2, 4, 6]])) # cannot perform
 ```
 
-<br>
 
 ```python
 a1 = np.array([1,2,3,4,5]).reshape(5,1)
@@ -50,6 +48,8 @@ print(a1 + a2) # broadcasting
 
 ## <span style =  "color : blue"> Matrix </span>
 
+some examples of matrix generating functions
+
 ```python
 # numpy.full(shape, fill_value)
 np.full((3, 3), 2)
@@ -58,7 +58,6 @@ array([[2, 2, 2],
        [2, 2, 2],
        [2, 2, 2]])
 ```
-<br>
 
 ```python
 # np.linspace(start, end, num = number,endpoint = True)
@@ -66,7 +65,6 @@ np.linspace(0, 2, 5)
 
 array([0. , 0.5, 1. , 1.5, 2. ])
 ```
-<br>
 
 ```python
 # np.logspace(start, end, num = number, endpoint = True, base = 10.0, dtype = object)
@@ -83,11 +81,12 @@ basic pandas library syntax on python through titanic_dataset
 
 ## <span style = "color : blue"> titanic_dataset </span>
 
+Popular Kaggle Dataset - "Titanic - Machine Learning from Disaster"
+
 ```python
 # import titanic dataset
 titanic_df = pd.read_csv('/content/drive/MyDrive/Titanic.csv', index_col=0)
 ```
-<br>
 
 ```python
 # sums up num of NaN in each column
@@ -113,8 +112,9 @@ titanic_df.sort_values(by = ['Pclass','Age'], ascending=(False, False), inplace 
 
 ## <span style = "color: blue"> boolean indexing </span>
 
+Extract desired conditions using "loc" to specify rows and columns
+
 ```python
-# Extract desired conditions using "loc" to specify rows and columns
 titanic_df.loc[titanic_df['Pclass'] == 1, 'Name]
 ```
 
@@ -125,8 +125,9 @@ titanic_df.loc[titanic_df['Pclass'] == 1, 'Name]
 
 ## <span style = "color : blue"> aggfunc </span>
 
+groupby.agg(): group variables by set functions
+
 ```python
-# groupby.agg(): group variables by set functions
 df5.groupby(['class']).agg({'score':['sum', 'min', 'max'],
                             'exam':'count'})
 ```
