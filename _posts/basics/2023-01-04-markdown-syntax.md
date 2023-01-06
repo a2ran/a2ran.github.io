@@ -145,14 +145,14 @@ can be expressed by \>. \>> when overlapping
 |:---:|---:|---|<br>
 |Avatar|⭐⭐⭐⭐⭐|Good|<br>
 |Avengers|⭐⭐⭐⭐⭐|Better|<br>
-|Asylum|⭐⭐⭐⭐|Best!|<br><br>
+|Asylum|⭐⭐⭐⭐|Best!!|<br><br>
 ```
 
 |**Title**|Ratings|Opinions|
 |:---:|---:|---|
 |Avatar|⭐⭐⭐⭐⭐|Good|
 |Avengers|⭐⭐⭐⭐⭐|Better|
-|Asylum|⭐⭐⭐⭐|Best!|
+|Asylum|⭐⭐⭐⭐|Best!!|
 
 ## Toggle List
 
