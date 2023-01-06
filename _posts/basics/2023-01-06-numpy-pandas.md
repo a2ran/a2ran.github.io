@@ -79,7 +79,7 @@ array([   1.,   10.,  100., 1000.])
 
 basic pandas library syntax on python through titanic_dataset
 
-![image]("https://blog.kakaocdn.net/dn/N4NAc/btqRoP1ml8o/x4DD7ITezrXVcJKgEYR5a1/img.png")
+![image](https://blog.kakaocdn.net/dn/N4NAc/btqRoP1ml8o/x4DD7ITezrXVcJKgEYR5a1/img.png)
 
 ## <span style = "color : blue"> titanic_dataset </span>
 
