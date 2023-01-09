@@ -1,5 +1,5 @@
 ---
-title: "Datascience Basics"
+title: "Datascience_Basics"
 layout: archive
 permalink: categories/basics
 author_profile: true
