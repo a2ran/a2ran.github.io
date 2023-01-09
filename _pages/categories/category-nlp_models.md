@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.nlp_models %}
+{% assign posts = site.categories.model %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
