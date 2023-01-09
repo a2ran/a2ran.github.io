@@ -33,6 +33,7 @@ requirements are listed below
 pip install python >= 3.6.0
 pip install pytorch >= 1.6.0
 pip install transformers >= 4.6.0
+```
 
 ## <span style = "color : blue">Model Architecture</span>
 
