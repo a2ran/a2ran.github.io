@@ -1,7 +1,7 @@
 ---
 title: "NLP_Model_Reviews"
 layout: archive
-permalink: categories/nlp_models
+permalink: categories/model
 author_profile: true
 sidebar_main: true
 ---
