@@ -1,11 +1,11 @@
 ---
-title: "[study] EDA methodologies"
+title: "[basics] Stanford CS224n: Lecture 1 - Intro & Word Vectors - Lecture Review"
 toc: true
 use_math: true
 categories:
-  - basics
+  - study
 tags:
-  - [basics, EDA]
+  - [study, NLP. word2vec, lecture]
 date: 2023-01-11
 last_modified_at: 2023-01-11
 sitemap:
