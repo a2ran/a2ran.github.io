@@ -5,7 +5,7 @@ use_math: true
 categories:
   - study
 tags:
-  - [study, NLP. word2vec, exercise]
+  - [study, NLP, word2vec, exercise]
 date: 2023-01-11
 last_modified_at: 2023-01-11
 sitemap:
