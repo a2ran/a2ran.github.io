@@ -1,11 +1,11 @@
 ---
-title: "[basics] EDA methodologies"
+title: "[basics] Stanford CS224n: Lecture 1 - Intro & Word Vectors - Lecture Review"
 toc: true
 use_math: true
 categories:
-  - basics
+  - study
 tags:
-  - [basics, EDA]
+  - [study, NLP. word2vec, lecture]
 date: 2023-01-11
 last_modified_at: 2023-01-11
 sitemap:
@@ -13,141 +13,35 @@ sitemap:
   priority: 1.0
 ---
 
-EDA procedures, types, and exercises.
+Week 1 task of Stanford CS244n: Natural Language Processing with Deep Learning
 
-# <span style = "color : blue"> What is Exploratory Data Analysis (EDA)? </span>
 
-Exploratory Data Analysis is the process of analyzing and summarizing a dataset in order to understand its overall structure,
-patterns, and relationships. EDA pioneers any data analysis project, and is often used to help formulate hypotheses and identify areas of interest
-for further investigation.
+# <span style = "color: blue"> Lecture (강의 내용) </span>
 
-## <span style = "color : skyblue"> Data Analysis Procedures </span>
+## <span style = "color : skyblue"> 1. Introduction (~ 16:01) </span>
 
-1. Define Problems
-- Understand target, define target objectively.
-2. Collect Data
-- Organize necessary data, identify and secure data location.
-3. Data Analysis
-- Check for errors, improve data structure and features
-4. Data Modeling
-- Design data from various views, establish relationships between relative tables
-5. Visualization and Re-exploration
-- Derive insights to address various types of problem
+16:01분까지는 전반적인 개요에 대한 설명이 주를 이루고 있습니다. 담당교수가 NLP에 대해 가지고 있는 생각을 중점으로 강의를 들으시면 되겠습니다.
 
-## <span style = "color : skyblue"> Exploratory Data Analysis Procedures </span>
+* Key question for artifical intelligence and human-computer interaction is how to get computers to be able to understand the information conveyed in human languages
 
-1. Collect Data
--  Create data collection pipeline, organize required data.
-2. Data Preprocessing
-- Handle missing data, explore outliers, data labeling...
-3. Data Scaling
-- Normalize/Standardize data, adjust volume (oversampling/undersampling)
-4. Data Visualization
-- Data Visualization (Modeling)
-5. Post processing
-- Explore outliers, Fine Tuning
+> Artificial Intelligence, 즉 인공지능과 인간-컴퓨터 상호작용에 있어 중요한 요소 중 하나는 컴퓨터가 어떻게 인간 언어에 담긴 맥락을 이해할 수 있을까에 대한 질문입니다.
 
-# <span style = "color : blue"> Exercise </span>
+<br>
 
-Examples of basic EDA methods
+### **gpt-3 모델이 중요하다고 교수가 생각하는 이유:**
 
-```python
-train = pd.read_csv('train.csv')
-test = pd.read_csv('test.csv')
-```
+* gpt-3 model is the first step on *universal models*. It is a trained up one extremely large model on every knowledge of human world. So people no longer need specific models. Just one single model that understands anything.
 
-## <span style = "color : skyblue"> Interpolation </span>
+> 교수는 GPT-3 모델이 *유니버셜 모델*로 가기 위한 첫번째 단계라고 생각합니다.
+> 유니버셜 모델은 인간 사회의 모든 지식을 담은 매우 방대한 모델로서, 상황에 따라 각자의 모델을 사용하는 것이 아닌 모든 것을 이해하는 단 하나의 모델만을 사용하게 만드는 모델입니다.
 
-Interpolate missing values using various indicators from the dataframe.
+<br>
 
-```python
-# Interpolate missing values via median
-df_train = df_train.fillna(df_train.median())
-df_test = df_test.fillna(df_test.median())
-```
+<img src = '/assets/images/nlp_study/week1/week1_1.png' width = '700'>
 
-## <span style = "color : skyblue"> Encoder </span>
+### **gpt-3 모델 작동 예시**
 
-Encode string values into int / float scalar to faciliate input selection.
-
-```python
-# Interpolate missing values via median
-from sklearn.preprocessing import LabelEncoder
-
-enc = LabelEncoder()
-
-enc.fit(train['Sex'])
-labels_1 = enc.transform(train['Sex'])
-labels_2 = enc.transform(test['Sex'])
-
-train['l_sex'] = labels_1
-test['l_sex'] = labels_2
-```
-
-## <span style = "color : skyblue"> Histogram, QQplot </span>
-
-Visualize univariate data into histograms and QQplots.
-
-```python
-import scipy.stats as stats
-
-for col in numeric_f:
-    sns.distplot(filled_train.loc[filled_train[col].notnull(), col])
-    plt.title(col)
-    plt.show()
-```
-
-<img src = '/assets/images/basics/basic_0110_1.png' width = '400'>
-
-```python
-from scipy.stats import probplot #for qq plot
-
-f, axes = plt.subplots(2, 4, figsize=(12, 6))
-Age = np.array(filled_train['Age'])
-Sib = np.array(filled_train['SibSp'])
-Par = np.array(filled_train['Parch'])
-Age = np.array(filled_train['Fare'])
-
-axes[0][0].boxplot(Age)
-probplot(Age, plot=axes[1][0]) #scipy.stats.probplot
-axes[0][1].boxplot(Sib)
-probplot(Sib, plot=axes[1][1]) #scipy.stats.probplot
-axes[0][2].boxplot(Par)
-probplot(Par, plot=axes[1][2]) 
-axes[0][3].boxplot(Age)
-probplot(Age, plot=axes[1][3]) #scipy.stats.probplot
-
-plt.show()    
-```
-
-<img src = '/assets/images/basics/basic_0110_2.png' width = '600'>
-
-## <span style = "color : skyblue"> Cross Tabulation </span>
-
-Analyze multivariate data using pandas crosstab library.
-
-```python
-pd.crosstab(filled_train['Sex'], filled_train['Pclass'],
-            normalize = 'index', margins = True) 
-```
-
-## <span style = "color : skyblue"> Scatterplots & Heatmap </span>
-
-Visualize multivariate data using scatterplots and heatmap.
-
-```python
-import seaborn as sns
-
-sns.heatmap(df_corr, annot=True)
-plt.show()
-```
-
-<img src = '/assets/images/basics/basic_0110_3.png' width = '400'>
-
-```python
-sns.pairplot(filled_train[list(numeric_f)], 
-             x_vars=numeric_f, y_vars=numeric_f)
-plt.show()
-```
-
-<img src = '/assets/images/basics/basic_0110_4.png' width = '600'>
+* gpt-3 can predict following words, but just predicting one word at a time to complete text.
+> GPT-3 모델은 따라오는 단어를 하나씩 예측하여 텍스트를 완성할 수 있습니다. <br> 예시 : 일론 머스크 트위터
+* if given couple of examples, gpt-3 can follow ideas and patterns.
+> GPT-3 모델에 예시들을 주면, GPT-3 모델은 그 예시의 패턴과 아이디어를 따라할 수 있습니다. <br> 예시: 문장을 SQL 문법의 문장으로 바꿀 때
