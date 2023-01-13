@@ -41,7 +41,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "study" %}
-                        <li><a href="/categories/study" class="">NLP studies({{category[1].size}})</a></li>
+                        <li><a href="/categories/study" class="">NLP Lectures({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -49,7 +49,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "stats" %}
-                        <li><a href="/categories/stats" class=""> studies ({{category[1].size}})</a></li>
+                        <li><a href="/categories/stats" class=""> Mathematical Statistics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
