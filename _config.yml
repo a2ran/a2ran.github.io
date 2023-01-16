@@ -10,8 +10,8 @@ description              : "Wide array of selections I have journied through <br
 url                      : "https://a2ran.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/a2ran/a2ran.github.io"
-teaser                   : "/assets/images/ds_lab.png"
-logo                     : "/assets/images/ds_lab.png"
+teaser                   : "/assets/images/teaser.png"
+logo                     : "/assets/images/teaser.png"
 masthead_title           : "study-repo"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -90,7 +90,7 @@ analytics:
 # Site Author
 author:
   name             : "Uihyun Cho (조의현)"
-  avatar           : "/assets/images/ds_lab.png"
+  avatar           : "/assets/images/teaser.png"
   bio              : "Wide array of selections I have ventured through. <br> Beginner at Applied Statistics"
   location         : "Republic of Korea"
   email            :
