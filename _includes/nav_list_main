@@ -11,7 +11,7 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';"># of repos</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';"></style>
             <div style="text-align: center;">
               <a href="https://hits.seeyoufarm.com">
-                <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fa2ran.github.io&count_bg=%233D93C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=조회수&edge_flat=false" style = "float: left; width:50px; height:25px;"/>
+                <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fa2ran.github.io&count_bg=%233D93C8&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=조회수&edge_flat=false" style = "width:120px; height:25px;"/>
               </a>
             </div>
       </li>
