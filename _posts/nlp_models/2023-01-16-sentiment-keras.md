@@ -122,6 +122,7 @@ train_padded = pad_sequences(train_sequences, maxlen = max_length, truncating = 
                                padding = padding_type)
 val_padded = pad_sequences(val_sequences, maxlen = max_length, padding = padding_type, 
                                     truncating = trunc_type)
+```                                    
                                     
 ## <span style = "color : skyblue"> Define Model </span>
 
