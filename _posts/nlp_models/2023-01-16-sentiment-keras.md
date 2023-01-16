@@ -69,6 +69,7 @@ Simply remove non-korean words using **regular expressions**.
 
 ```python
 train['document'] = train['document'].str.replace("[^ㄱ-ㅎㅏ-ㅣ가-힣 ]","")
+```
 
 ## <span style = "color : skyblue"> Split Train & Validation Data </span>
 
