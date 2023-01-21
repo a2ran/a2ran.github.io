@@ -5,7 +5,7 @@ use_math: true
 categories:
   - paper
 tags:
-  - [keras, tensorflow, paper, model, implementation]
+  - [keras, tensorflow, implementation]
 date: 2023-01-22
 last_modified_at: 2023-01-22
 sitemap:
