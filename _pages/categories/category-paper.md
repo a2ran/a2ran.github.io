@@ -1,5 +1,5 @@
 ---
-title: "Paper_Review"
+title: "Paper Review"
 layout: archive
 permalink: categories/paper
 author_profile: true
