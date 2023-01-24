@@ -1,5 +1,5 @@
 ---
-title: "[projects] kor-eng attention GRU translator"
+title: "[projects] kor-eng translator"
 toc: true
 use_math: true
 categories:
