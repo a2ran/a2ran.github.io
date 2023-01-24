@@ -22,9 +22,6 @@ Especially, if a train sequence is *lengthy*, the **Seq2seq** model was not able
 <br>
 ***Attention*** model solves this problem by introducing **alignment** with **translation**.
 
-<br>
-
-
 ### <span style = "color : skyblue"> Model Architecture </span>
 
 <img src = '/assets/images/paper/attention_1.png' width = '600'>
@@ -58,7 +55,7 @@ By computing scores for each value $v$, the **Attention** model is able to decid
 
 ### <span style = "color : skyblue"> Prediction Procedures </span>
 
-1. Get Attention Score for every decoder hidden state $s_{t-1}$ and encoder hidden state $h_i$
+$1$. Get Attention Score for every decoder hidden state $s_{t-1}$ and encoder hidden state $h_i$
 
 <img src = '/assets/images/paper/attention_3.png' width = '600'>
 
@@ -72,15 +69,15 @@ $score(s_{t-1}, h_i) = e^t = {W_a}^Ttanh(W_{b}s_{t-1} + W_{c}h_{i})$
 
 where $W_a$, $W_b$, $W_c$ is a **trainable weight vectors**.
 
-2. Use a softmax function to compute Attention Distribution
+$2$. Use a softmax function to compute Attention Distribution
 
 By applying a **softmax function** to attention score $e^t$, get a probability distribution that sums up to 1.
 
-3. Sum up every Attention Weight and hidden-state to compute **Attention Value** (context vector)
+$3$. Sum up every Attention Weight and hidden-state to compute **Attention Value** (context vector)
 
-4. Compute $s_t$ from **Attention Value**
+$4$. Compute $s_t$ from **Attention Value**
 
-5. Predict next value $v$ from the hidden state $s_t$
+$5$. Predict next value $v$ from the hidden state $s_t$
 
 ### <span style = "color : skyblue"> Results </span>
 
