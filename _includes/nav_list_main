@@ -35,7 +35,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "translator" %}
-                        <li><a href="/categories/study" class="">KOR - ENG Translator({{category[1].size}})</a></li>
+                        <li><a href="/categories/translator" class="">KOR - ENG Translator({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
