@@ -6,8 +6,8 @@ categories:
   - translator
 tags:
   - [projects, tensorflow, nlp]
-date: 2023-01-24
-last_modified_at: 2023-01-24
+date: 2023-01-27
+last_modified_at: 2023-01-27
 sitemap:
   changefreq: daily
   priority: 1.0
@@ -90,13 +90,17 @@ src_raw[:5]
 ### Before Tokenization
 
 <img src = '/assets/images/projects/model_5.png' style = "float : left;"/>
-<img src = '/assets/images/projects/model_6.png' style = "float : left;"/>
+<img src = '/assets/images/projects/model_6.png'/>
+
+<br>
 
 ### After Tokenization
 
 <img src = '/assets/images/projects/tok_1.png' style = "float : left;"/>
 <img src = '/assets/images/projects/tok_2.png' style = "float : left;"/>
 <img src = '/assets/images/projects/tok_3.png'>
+
+<br>
 
 **단어 단위**로 토큰화 이후 임베딩한 *ver-1.0* 때보다, <br>
 **형태소 단위**로 토큰화한 이후 임베딩한 *ver-1.1*의 val_loss와 val_accuracy가 큰 폭으로 상승했음을 확인할 수 있다. <br>
