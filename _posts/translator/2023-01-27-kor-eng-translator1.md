@@ -89,15 +89,15 @@ src_raw[:5]
 
 ### Before Tokenization
 
-<img src = '/assets/images/projects/model_5.png' style = "float : left;"/>
-<img src = '/assets/images/projects/model_6.png'/>
+<img src = '/assets/images/projects/model_5.png'>
+<img src = '/assets/images/projects/model_6.png'>
 
 <br>
 
 ### After Tokenization
 
-<img src = '/assets/images/projects/tok_1.png' style = "float : left;"/>
-<img src = '/assets/images/projects/tok_2.png' style = "float : left;"/>
+<img src = '/assets/images/projects/tok_1.png'>
+<img src = '/assets/images/projects/tok_2.png'>
 <img src = '/assets/images/projects/tok_3.png'>
 
 <br>
