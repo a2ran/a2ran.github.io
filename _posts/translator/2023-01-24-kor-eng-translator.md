@@ -177,8 +177,7 @@ class Translator(tf.keras.Model):
         return logits
  ```
  
-<img src = '/assets/images/projects/model_5.png' width = '400' style = "float : left;"/>
-<img src = '/assets/images/projects/model_6.png' width = '400'/>
+<img src = '/assets/images/projects/model_5.png'>
 
 ## <span style = "color : blue"> 5. Streamlit 웹페이지 구축 </span>
 
