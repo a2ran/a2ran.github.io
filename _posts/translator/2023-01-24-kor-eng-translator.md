@@ -242,7 +242,7 @@ for _ in range(len(st.session_state['kor'])):
 
 ### 결과
 
-<img src = '/assets/images/projects/model_4.png' width = '800'/>
+<img src = '/assets/images/projects/model_4.png' width = '800'/> 
 
 ### 출처
 
