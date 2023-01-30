@@ -13,7 +13,7 @@ sitemap:
   priority: 1.0
 ---
 
-Week 4 task of Stanford CS244n: Natural Language Processing with Deep Learning
+Week 4 task of Stanford CS244n: Natural Language Processing with Deep Learning 
 
 # <span style = "color: blue"> Lecture </span>
 
