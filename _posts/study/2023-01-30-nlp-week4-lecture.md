@@ -56,28 +56,28 @@ $c = (\sigma, \beta, A)$ where $\sigma$ = STACK, $\beta$ = BUFFER, $A$ = Set of 
 
 All decisions are made from $f(c)$ which inputs State (c) in a BUFFER.
 
-1. ROOT | I ate fish | X
+1. ROOT / I ate fish / X
 
-2. ROOT I | ate fish | X
+2. ROOT I / ate fish / X
 
 Decision Process : Shift
 
-3. ROOT I ate | fish | X
+3. ROOT I ate / fish / X
 
 Decision Process : Shift -> Shift
 
-4. ROOT ate | fish | (ate, nsubj, I)
+4. ROOT ate / fish / (ate, nsubj, I)
 
 Decision Process : Shift -> Shift -> Left-Arc (nsubj)
 
-5. ROOT ate fish | X | (ate, nsubj, I)
+5. ROOT ate fish / X / (ate, nsubj, I)
 
 Decision Process : Shift -> Shift -> Left-Arc (nsubj) -> Shift
 
-6. ROOT ate | X | (ate, nsubj, I) (ate, dobj, fish)
+6. ROOT ate / X / (ate, nsubj, I) (ate, dobj, fish)
 
 Decision Process : Shift -> Shift -> Left-Arc (nsubj) -> Shift -> Right-Arc (dobj)
 
-7. ROOT | X | (ate, nsbj, I) (ate, dobj, fish) (ROOT, root, ate)
+7. ROOT / X / (ate, nsbj, I) (ate, dobj, fish) (ROOT, root, ate)
 
 **Decision Process : Shift -> Shift -> Left-Arc (nsubj) -> Shift -> Right-Arc (dobj) -> Right-Arc (root)**
