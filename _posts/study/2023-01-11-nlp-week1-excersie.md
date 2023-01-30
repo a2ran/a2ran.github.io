@@ -1,5 +1,5 @@
 ---
-title: "[study] Stanford CS224n: Lecture 1 - Intro & Word Vectors - Exercise"
+title: "[assignment] Stanford CS224n: Week 1 Assignment"
 toc: true
 use_math: true
 categories:
