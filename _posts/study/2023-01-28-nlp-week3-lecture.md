@@ -89,7 +89,7 @@ $\frac{\partial s}{\partial b} = u^Tdiag(f'(z))I$
 
 $\frac{\partial s}{\partial W} = \delta^Tx^T$
 
-<img src = '/assets/images/nlp_study/3.png'>
+<img src = '/assets/images/nlp_study/week3/3.png'>
 
 ## Back Propagation
 
