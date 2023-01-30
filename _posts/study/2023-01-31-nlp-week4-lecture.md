@@ -37,7 +37,7 @@ For instance,
 
 ## Dependency Structure
 
-<img src = '2.png'>
+<img src = '/assets/images/nlp_study/week4/2.png'>
 
 **Dependency Structure** has its usage on **understanding relationship between vocabularies.**
 
@@ -48,7 +48,7 @@ For instance,
 
 ### Transition-based Dependency Parsing
 
-<img src = '3.png'>
+<img src = '/assets/images/nlp_study/week4/3.png'>
 
 **Transition-based parser** determines the **dependency** of two words in a **sequential order.**
 
