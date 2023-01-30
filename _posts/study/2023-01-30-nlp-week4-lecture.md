@@ -6,8 +6,8 @@ categories:
   - study
 tags:
   - [study, NLP, Parsing, lecture]
-date: 2023-01-31
-last_modified_at: 2023-01-31
+date: 2023-01-30
+last_modified_at: 2023-01-30
 sitemap:
   changefreq: daily
   priority: 1.0
