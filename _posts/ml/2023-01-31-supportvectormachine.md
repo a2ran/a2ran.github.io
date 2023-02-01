@@ -13,7 +13,7 @@ sitemap:
   priority: 1.0
 ---
 
-Skim through fundamental machine learning concepts and mathematical implications.
+Skim through fundamental machine learning concepts and mathematical implications. 
 
 ## Support Vector Machine
 
