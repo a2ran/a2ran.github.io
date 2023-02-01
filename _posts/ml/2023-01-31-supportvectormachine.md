@@ -59,7 +59,7 @@ $y_i[(W \circ X_i) + w_0] \ge 1 - \xi_i ( i = 1, ... , n)$, <br> $\xi \ge 0$
 
 ## Objective Function
 
-$Max M = Max\frac{2}{||W||} = Min\frac{||W||}{2} = Min\frac{{||W||}^2}{2}$
+$Max M = Max\frac{2}{|W|} = Min\frac{||W||}{2} = Min\frac{{||W||}^2}{2}$
 
 Objective Function : $Min\frac{{||W||}^2}{2} + C\Sigma_i\xi_i$
 
