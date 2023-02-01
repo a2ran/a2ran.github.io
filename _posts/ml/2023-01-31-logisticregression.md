@@ -51,7 +51,7 @@ def sigmoid(x):
 
 $Max$  $Likelihood$ = $\Pi p(x_i) \Pi (1 - p(x_i))$
 
-$\Pi p(x_i)$ : probability of predicting 1 for actual 1
+$\Pi p(x_i)$ : probability of predicting 1 for actual 1<br>
 $\Pi (1 - p(x_i))$ : probability of predicting 0 for actual 0
 
 $Min$ $Loss$ = $-\Sigma y_iln(p(x_i)) + (1 - y_i)ln(1 - p(x_i))$
