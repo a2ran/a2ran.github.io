@@ -79,7 +79,7 @@ $min \Sigma_{i=1}^n(y_i - \hat{y}_i)^2$
 
 ### Proof.
 
-$SSE = \Sigma_{i=1}^n(y_i - \hat{y}_i)^2 = \Sigma_{i=1}^n(y_i - \hat{\beta}_0 - \hat{\beta}_1x_{i1} - ... - \hat{\beta}_kx_{ik})^2$
+$SSE = \Sigma_{i=1}^n(y_i - \hat{y}_i)^2$ = $\Sigma_{i=1}^n(y_i - \hat{\beta}_0 - \hat{\beta}_1x_{i1} - ... - \hat{\beta}_kx_{ik})^2$
 
 $= (Y - X\beta)^T(Y - X\beta) = Y^TY - Y^T(X\beta) - (X\beta)^TY + (X\beta)^T(X\beta)$
 
