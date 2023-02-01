@@ -65,7 +65,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "ml" %}
-                        <li><a href="/categories/basics" class="">Machine Learning ({{category[1].size}})</a></li>
+                        <li><a href="/categories/ml" class="">Machine Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>     
