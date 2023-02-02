@@ -38,7 +38,7 @@ Attention model is not independent from other parameters. Wiegreffe stated that 
 
 ## Is Attention Useful in First Place?
 
-<img src = '10.png'>
+<img src = '/assets/images/paper/xai_attention/10.png'>
 
 Wiegreffe first proved attention model's usefulness by comparing the **performance difference** between the attention model and the base model (uiform model).
 
@@ -46,7 +46,7 @@ As a result, it is shown that attention takes a role on performance improvements
 
 ## Is Attention Robust in First Place?
 
-<img src = '11.png'>
+<img src = '/assets/images/paper/xai_attention/11.png'>
 
 Wiegreffe hypothesized that if attention model is **malleble** regarding to the random seed, there is no need for testing adversarial attention model.
 
@@ -54,7 +54,7 @@ It is shown that attention model is **robust and hard to manipulate** despite ch
 
 ## Experiments
 
-<img src = '12.png'>
+<img src = '/assets/images/paper/xai_attention/12.png'>
 
 **Attention** : Each token's attention score is calculated by attention parameters.
 
@@ -62,13 +62,13 @@ It is shown that attention model is **robust and hard to manipulate** despite ch
 
 Wiegreffe claims that to figure out the true value of the attention model, one should remove the **context of tokens** section and emphasize the **attention** section.
 
-<img src = '13.png'>
+<img src = '/assets/images/paper/xai_attention/13.png'>
 
 To remove the context of tokens section, Wiegreffe transformed LSTM layer into **MLP layer** of each tokens, and **imposed weights** on each tokens.
 
 ## Results
 
-<img src = '14.png'>
+<img src = '/assets/images/paper/xai_attention/14.png'>
 
 Wiegreffe trained the model via four attention weights.
 
