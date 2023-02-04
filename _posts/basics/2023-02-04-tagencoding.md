@@ -6,8 +6,8 @@ categories:
   - basics
 tags:
   - [basics, encoding]
-date: 2023-02-05
-last_modified_at: 2023-02-05
+date: 2023-02-04
+last_modified_at: 2023-02-04
 sitemap:
   changefreq: daily
   priority: 1.0
