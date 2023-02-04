@@ -139,7 +139,7 @@ for _ in tqdm(range(len(taglist))):
 
 코드의 결과는 다음과 같습니다.
 
-<img src = '1.png'>
+<img src = '/assets/images/basics/1.png'>
 
 리스트 내 태그에 따라 원-핫 인코딩이 정상적으로 이루어져 있습니다.
 
