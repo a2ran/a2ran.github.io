@@ -70,7 +70,7 @@ sitemap:
 
 (Accuracy Score)
 
-> DecisionTree model : 0.966
-> RandomForest model : 0.981
-> XGBoost model : 0.981
-> LightGBM model : 0.981
+> DecisionTree model : 0.966 <br>
+> RandomForest model : 0.981 <br>
+> XGBoost model : 0.981 <br>
+> LightGBM model : 0.981 <br>
