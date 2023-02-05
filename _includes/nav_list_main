@@ -35,14 +35,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "translator" %}
-                        <li><a href="/categories/translator" class="">KOR - ENG Translator({{category[1].size}})</a></li>
+                        <li><a href="/categories/translator" class="">KOR - ENG Translator ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "app" %}
-                        <li><a href="/categories/app" class="">ML Competitions({{category[1].size}})</a></li>
+                        <li><a href="/categories/app" class="">ML Applications ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -57,7 +57,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "study" %}
-                        <li><a href="/categories/study" class="">NLP Lectures({{category[1].size}})</a></li>
+                        <li><a href="/categories/study" class="">NLP Lectures ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -80,7 +80,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "basics" %}
-                        <li><a href="/categories/basics" class="">Datascience Basics({{category[1].size}})</a></li>
+                        <li><a href="/categories/basics" class="">Datascience Basics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>                
