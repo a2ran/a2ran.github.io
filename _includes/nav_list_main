@@ -27,6 +27,13 @@
         <span class="nav__sub-title">Projects</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "chatbot" %}
+                        <li><a href="/categories/chatbot" class=""> Transformer Chatbot ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>   
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "9th_EDA" %}
                         <li><a href="/categories/9th_EDA" class=""> EDA presentation (23.01.05 ~ 23.01.25) ({{category[1].size}})</a></li>
                     {% endif %}
