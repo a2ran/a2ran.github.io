@@ -272,7 +272,7 @@ class FeedForward(tf.keras.layers.Layer):
 
 <img src = '/assets/images/projects/chatbot/11.png'>
 
-<img src = 'https://www.tensorflow.org/images/tutorials/transformer/transformer.png' width = '400' align = 'left'>
+<img src = 'https://www.tensorflow.org/images/tutorials/transformer/transformer.png' width = '400'>
 
 ## Train model
 
