@@ -21,7 +21,9 @@ sitemap:
 
 ## ko-sROBERTa-Multitask
 
-<img src = '/assets/images/projects/chatbot/bert/2.png'>
+<img src = '/assets/images/projects/chatbot/bert/4.png'>
+
+<img src = '/assets/images/projects/chatbot/bert/5.png'>
 
 ## 코드 예시
 
