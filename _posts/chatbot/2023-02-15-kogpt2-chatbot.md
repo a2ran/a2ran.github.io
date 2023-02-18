@@ -20,7 +20,9 @@ sitemap:
 출처: 웰니스 대화 스크립트 데이터셋(AI Hub, 2019) <br>
 Kogpt2 모델 https://github.com/SKT-AI/KoGPT2
 
-<img src = '/assets/images/projects/chatbot/img/0.png' width = '70%'>
+github repository link : [https://github.com/a2ran/kogpt2-chatbot](https://github.com/a2ran/kogpt2-chatbot)
+
+<img src = '/assets/images/projects/chatbot/img/0.png'>
 
 ## Introduction
 
@@ -160,7 +162,7 @@ def chatbot(text):
     return label, response
 ```
 
-<img src = '/assets/images/projects/chatbot/img/0.png' width = '70%'>
+<img src = '/assets/images/projects/chatbot/img/0.png'>
 
 ## Revision
 
