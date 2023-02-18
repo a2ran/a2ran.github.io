@@ -1,5 +1,5 @@
 ---
-title: "Transformer 모델 기반 심리상담 chatbot"
+title: "NLP 모델 기반 심리상담 chatbot"
 layout: archive
 permalink: categories/chatbot
 author_profile: true
