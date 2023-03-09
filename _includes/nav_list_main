@@ -48,6 +48,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "ict" %}
+                        <li><a href="/categories/ict" class=""Hanium ICT Project (23.03.02~ ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "app" %}
                         <li><a href="/categories/app" class="">ML Applications ({{category[1].size}})</a></li>
                     {% endif %}
