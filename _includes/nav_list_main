@@ -89,15 +89,7 @@
                         <li><a href="/categories/ml" class="">Machine Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>     
-        <span class="nav__sub-title">Basics</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "basics" %}
-                        <li><a href="/categories/basics" class="">Datascience Basics ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>                
+            </ul>         
       </li>
   </ul>
 </nav>
