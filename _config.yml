@@ -1,18 +1,18 @@
-minimal_mistakes_skin    : "dsl" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dsl"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "study-repo"
+title                    : "a2ran"
 title_separator          : "-"
-subtitle                 : "Data Study Archive"
-name                     : "Uihyun Cho(조의현)"
-description              : "Wide array of selections I have journied through <br> Mostly applied statistics and Natural Language Processings"
+subtitle                 : "study-repo"
+name                     : "Uihyun Cho (조의현)"
+description              : "My Curriculum Vitae & Project Repositories Github Blog"
 url                      : "https://a2ran.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/a2ran/a2ran.github.io"
 teaser                   : "/assets/images/teaser.png"
 logo                     : "/assets/images/teaser.png"
-masthead_title           : "study-repo"
+masthead_title           : "a2ran"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 
@@ -91,13 +91,13 @@ analytics:
 author:
   name             : "Uihyun Cho (조의현)"
   avatar           : "/assets/images/teaser.png"
-  bio              : "Wide array of selections I have ventured through. <br> Beginner at Applied Statistics"
+  bio              : "B.E. Industrial Engineering Candidate, Yonsei Univ. <br> B.S. Applied Statistics Candidate, Yonsei Univ."
   location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:cuihyun12@naver.com
+      # url: "cuihyun12@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -134,7 +134,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/joyhyun99"
+      # url: "https://instagram.com/joyhyun99"
 
 
 # Reading Files
