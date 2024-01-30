@@ -7,7 +7,7 @@ title: "Projects"
 
 <section id="projects">
     <div>
-        <h5>Publications : Introduction to Generative Models</h5>
+        <h5>2024 Publication: Introduction to Generative Models</h5>
         <ul>
             <li><u><a href = "https://wikidocs.net/book/14271">Wikidocs Link</a></u></li>
         </ul>
