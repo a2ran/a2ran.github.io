@@ -7,6 +7,10 @@ title: "Projects"
 
 <section id="projects">
     <div>
+        <h5>Publications : Introduction to Generative Models</h5>
+        <ul>
+            <li><u><a href = "https://wikidocs.net/book/14271">Wikidocs Link</a></u></li>
+        </ul>
         <h5>2023 IC-PBL Head Manager, ©<u><a href = "https://comento.kr/?index">Comento</a></u></h5>
         <ul>
             <li>Development of copilot AI on writing resumes</li>
