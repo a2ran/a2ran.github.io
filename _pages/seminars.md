@@ -57,6 +57,7 @@ title: "Seminars"
 </div>
 </details>
 
+
 ## OOP with Pytorch
 
 <ul>
