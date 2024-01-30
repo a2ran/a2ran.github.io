@@ -7,8 +7,8 @@ title: "Seminars"
 
 ## Generative Models
 
-<h5> Week1: Introduction to PGMs</h5>
-<ul>
+<h5 onclick="toggleList('week1')"> Week1: Introduction to Generative Models</h5>
+<ul id="week1" style="display:none;">
     <li>Variational Inference</li>
     <li>KL-Divergence</li>
     <li>Evidence Lower Bounds</li>
@@ -26,6 +26,17 @@ title: "Seminars"
 </ul>
 
 ## Others
+
+<script>
+function toggleList(id) {
+    var element = document.getElementById(id);
+    if (element.style.display === "none") {
+        element.style.display = "block";
+    } else {
+        element.style.display = "none";
+    }
+}
+</script>
 
 <ul>
     <li><u><a href="https://www.youtube.com/watch?v=N_8NnRf6bjY">DDPM paper review</a></u></li>
