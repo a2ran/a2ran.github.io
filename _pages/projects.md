@@ -9,7 +9,7 @@ title: "Projects"
     <div>
         <h5>CTO: 2024 Pre-startup packages, <u><a href = "https://www.mss.go.kr/site/smba/main.do">Ministry of SMEs and Startups</a></u></h5>
         <ul>
-            <li>Accumulated Funding : $75,000</li>
+            <li>Accumulated Funding : $32,500</li>
             <li>On AI Induced Psychotherapy</li>
         </ul>
         <h5>2024 Publication: Introduction to Generative Models</h5>
