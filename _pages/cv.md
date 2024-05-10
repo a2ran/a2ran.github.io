@@ -5,4 +5,4 @@ title: "CV"
 
 ---
 
-WIP
+[CV](/assets/Ui_Hyun_Cho_Resume.pdf)
