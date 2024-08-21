@@ -5,6 +5,10 @@ title: "Seminars"
 
 ---
 
+## Prompt Engineering and Langchain
+
+* Available at LearnUS
+
 ## Generative Models
 
 * Week1: Introduction to Generative Models
